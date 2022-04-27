@@ -47,7 +47,7 @@ const AddFriend = () => {
                 <label htmlFor="email">Email:</label>
                 <input onChange={handleChange} id="email" />
             </div>
-
+            <button>Submit</button>
         </form>
     </div>)
 }
